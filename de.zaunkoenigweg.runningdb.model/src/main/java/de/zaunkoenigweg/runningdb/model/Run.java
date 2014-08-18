@@ -32,5 +32,15 @@ public class Run {
     public void setTime(Integer time) {
         this.time = time;
     }
+    
+    public Run withDistance(Integer distance) {
+    	this.distance = distance;
+    	return this;
+    }
+
+    public Run withTime(Integer time) {
+    	this.time = time;
+    	return this;
+    }
 
 }
