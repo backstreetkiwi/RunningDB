@@ -1,14 +1,16 @@
-package de.zaunkoenigweg.runningdb.model;
+package de.zaunkoenigweg.runningdb.util;
 
 import java.math.BigInteger;
 import java.util.List;
+
+import de.zaunkoenigweg.runningdb.model.Training;
 
 /**
  * Util for calculations within running training.
  * 
  * @author Nikolaus Winter
  */
-public class RunningDbUtil {
+public class StatisticsUtil {
 
     /**
      * Calculates pace [min/km] for given running distance and time.
