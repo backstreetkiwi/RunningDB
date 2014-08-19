@@ -13,10 +13,10 @@ import de.zaunkoenigweg.runningdb.model.Training;
 public class StatisticsUtil {
 
     /**
-     * Calculates pace [min/km] for given running distance and time.
+     * Calculates pace [seconds/km] for given running distance and time.
      * @param distance running distance
      * @param time elapsed time for run
-     * @return running pace [min/km]
+     * @return running pace [seconds/km]
      */
     public static Integer getPace(Integer distance, Integer time) {
         if(time==null || time.compareTo(0)<=0) {
