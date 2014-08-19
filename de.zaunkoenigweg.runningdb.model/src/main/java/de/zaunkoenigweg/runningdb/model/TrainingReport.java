@@ -5,7 +5,8 @@ import java.util.Calendar;
 import java.util.List;
 
 /**
- * List of  
+ * Report containing aggregated information for list of periods (year or month).
+ * The rows in this report are represented by inner class {@link TrainingReportRow}.
  * 
  * @author Nikolaus Winter
  */

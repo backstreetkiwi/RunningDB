@@ -14,6 +14,7 @@ import java.util.TreeSet;
 
 /**
  * Training log.
+ * This log keeps all the information about a runner's training activities. 
  * 
  * @author Nikolaus Winter
  */
@@ -40,11 +41,15 @@ public class TrainingLog {
         }
     });
     
+    // ------------------------------------------------------------------------------
+    // Getter/Setter
+    // ------------------------------------------------------------------------------
+    
     public List<Training> getTrainings() {
         return new ArrayList<Training>(this.trainings);
     }
     
-    public List<Shoe> getShoes() {
+    public List<Shoe> getAllShoes() {
         return new ArrayList<Shoe>(this.shoes);
     }
     
@@ -58,10 +63,10 @@ public class TrainingLog {
         return result;
     }
     
-    public List<ShoeInfo> getShoeInfo() {
-        List<ShoeInfo> result = new ArrayList<ShoeInfo>();
+    public List<ShoeStatistics> getShoeStatistics() {
+        List<ShoeStatistics> result = new ArrayList<ShoeStatistics>();
         for (Shoe shoe : this.shoes) {
-            result.add(new ShoeInfo(shoe, getDistance(shoe)));
+            result.add(new ShoeStatistics(shoe, getDistance(shoe)));
         }
         return result;
     }
@@ -96,7 +101,7 @@ public class TrainingLog {
         
         Shoe result = null;
         
-        List<Shoe> shoes = this.getShoes();
+        List<Shoe> shoes = this.getAllShoes();
         int i=0;
         Shoe shoe;
         while(result==null && i<shoes.size()) {
@@ -107,13 +112,10 @@ public class TrainingLog {
         }
         
         return result;
-        
     }
     
     public void addTraining(Training training) {
-
         this.trainings.add(training);
-        
     }
     
     public List<RecordDistance> getRecordDistances() {
@@ -134,7 +136,7 @@ public class TrainingLog {
     // ------------------------------------------------------------------------------
     
     /**
-     * Returns sum of distance of all runs of all trainings.
+     * Returns total distance of all trainings.
      * 
      * @return sum of distance
      */
@@ -147,7 +149,7 @@ public class TrainingLog {
     }
     
     /**
-     * Returns sum of distance of all runs of all trainings for given shoe.
+     * Returns total distance for given shoe.
      * 
      * @param shoe running shoe
      * @return sum of distance
@@ -163,7 +165,7 @@ public class TrainingLog {
     }
     
     /**
-     * Returns sum of elapsed time of all runs of all trainings.
+     * Returns total elapsed time of all trainings.
      * 
      * @return sum of elapsed time
      */
@@ -203,12 +205,12 @@ public class TrainingLog {
      * Returns list of informations regarding records.
      * @return list of informations regarding records
      */
-    public List<RecordInfo> getRecords() {
+    public List<RecordStatistics> getRecords() {
         
-        List<RecordInfo> result = new ArrayList<RecordInfo>();
+        List<RecordStatistics> result = new ArrayList<RecordStatistics>();
         
         for (RecordDistance recordDistance : this.recordDistances) {
-            RecordInfo recordInfo = getRecordInfo(recordDistance);
+            RecordStatistics recordInfo = getRecordInfo(recordDistance);
             result.add(recordInfo);
         }
         
@@ -221,26 +223,26 @@ public class TrainingLog {
      * @param recordDistance record distance
      * @return record info
      */
-    private RecordInfo getRecordInfo(RecordDistance recordDistance) {
+    private RecordStatistics getRecordInfo(RecordDistance recordDistance) {
         
         // Caution! This algorithm is not suitable for big data ;-)
         
-        final RecordInfo recordInfo = new RecordInfo(recordDistance);
+        final RecordStatistics recordInfo = new RecordStatistics(recordDistance);
         
         // get all runs with matching distance 
         for (Training training : this.getTrainings()) {
             for (Run run : training.getRuns()) {
                 if(run.getDistance().compareTo(recordDistance.getDistance())==0) {
-                    recordInfo.getRecordRuns().add(new RecordInfo.RecordRun(run.getTime(), training));
+                    recordInfo.getRecordRuns().add(new RecordStatistics.RecordRun(run.getTime(), training));
                 }
             }
         }
         
         // sort runs (fastest first)
-        Collections.sort(recordInfo.getRecordRuns(), new Comparator<RecordInfo.RecordRun>() {
+        Collections.sort(recordInfo.getRecordRuns(), new Comparator<RecordStatistics.RecordRun>() {
 
         	@Override
-            public int compare(RecordInfo.RecordRun run1, RecordInfo.RecordRun run2) {
+            public int compare(RecordStatistics.RecordRun run1, RecordStatistics.RecordRun run2) {
                 return run1.getTime().compareTo(run2.getTime());
             }
         });

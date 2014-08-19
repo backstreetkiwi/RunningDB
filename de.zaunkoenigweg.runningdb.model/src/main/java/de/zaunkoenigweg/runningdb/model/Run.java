@@ -17,6 +17,8 @@ public class Run {
      */
     private Integer time;
 
+    // Getters/Setters
+    
     public Integer getDistance() {
         return distance;
     }
@@ -32,6 +34,8 @@ public class Run {
     public void setTime(Integer time) {
         this.time = time;
     }
+    
+    // fluent API
     
     public Run withDistance(Integer distance) {
     	this.distance = distance;

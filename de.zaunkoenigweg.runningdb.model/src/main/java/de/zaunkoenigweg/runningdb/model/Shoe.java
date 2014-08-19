@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 
 /**
- * Running shoe.
+ * Pair of running shoes.
  * 
  * @author Nikolaus Winter
  */
@@ -12,12 +12,12 @@ public class Shoe {
 
     /**
      * ID.
-     * meaning of <=0: not saved
+     * meaning of 0: not yet saved
      */
     private int id = 0;
 
     /**
-     * brand (e.g. Adidas, Asics)
+     * brand (e.g. Adidas, Asics).
      */
     private String brand = "";
     
@@ -28,12 +28,13 @@ public class Shoe {
     
     /**
      * date of purchase.
-     * This attribute is held as a string of characters to allow vague values.
+     * This attribute is a string of characters to allow vague values.
      */
     private String dateOfPurchase = "";
     
     /**
      * price.
+     * This attribute is a string of characters to allow vague values.
      */
     private String price = "";
     
@@ -43,7 +44,7 @@ public class Shoe {
     private String comments = "";
     
     /**
-     * Is the shoe still used?
+     * Are the shoes still used?
      */
     private boolean active = true;
     
@@ -51,6 +52,8 @@ public class Shoe {
      * image of the running shoes in jpeg format.
      */
     private byte[] image;
+    
+    // Getters/Setters
     
     public int getId() {
         return id;
@@ -116,6 +119,10 @@ public class Shoe {
         this.image = image;
     }
 
+    /**
+     * Produces a short name to display in UI (e.g. DropDownLists).
+     * @return short name
+     */
     public String getShortname() {
         return String.format("%s %s (%s)", this.brand, this.model, this.dateOfPurchase);
     }
@@ -127,14 +134,17 @@ public class Shoe {
      */
     public boolean isValid() {
         
+    	// brand must not be empty
         if (StringUtils.isBlank(this.brand)) {
             return false;
         }
         
+        // model must not be empty
         if (StringUtils.isBlank(this.model)) {
             return false;
         }
         
+        // date of purchase must not be empty
         if (StringUtils.isBlank(this.dateOfPurchase)) {
             return false;
         }

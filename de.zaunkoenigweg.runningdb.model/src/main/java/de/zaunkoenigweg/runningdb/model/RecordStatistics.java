@@ -5,16 +5,17 @@ import java.util.List;
 
 /**
  * This object contains a {@link RecordDistance} and a list of {@link RecordRun}s with matching distance.
+ * The latter is sorted ascending by elapsed time.
  * 
  * @author Nikolaus Winter
  */
-public class RecordInfo {
+public class RecordStatistics {
 
     private RecordDistance recordDistance;
     private List<RecordRun> recordRuns = new ArrayList<RecordRun>();
     private int totalRunCount;
 
-    public RecordInfo(RecordDistance recordDistance) {
+    public RecordStatistics(RecordDistance recordDistance) {
         this.recordDistance = recordDistance;
     }
 
@@ -46,7 +47,7 @@ public class RecordInfo {
 //    }
 //
     /**
-     * This object contains the time and a reference to the training session of a run that ist
+     * This object contains the time and a reference to the training session of a run that is
      * kept in a record list.
      */
     public static class RecordRun {

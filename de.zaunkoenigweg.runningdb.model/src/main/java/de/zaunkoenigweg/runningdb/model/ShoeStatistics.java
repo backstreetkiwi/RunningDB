@@ -5,12 +5,12 @@ package de.zaunkoenigweg.runningdb.model;
  * 
  * @author Nikolaus Winter
  */
-public class ShoeInfo {
+public class ShoeStatistics {
 
     private Shoe shoe;
     private Integer distance;
     
-    public ShoeInfo(Shoe shoe, Integer distance) {
+    public ShoeStatistics(Shoe shoe, Integer distance) {
         super();
         this.shoe = shoe;
         this.distance = distance;

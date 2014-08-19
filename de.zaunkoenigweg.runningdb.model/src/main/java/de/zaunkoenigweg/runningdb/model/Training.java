@@ -18,6 +18,8 @@ public class Training {
     private String comments = "";
     private Integer shoe = 0;
     private List<Run> runs = new ArrayList<Run>();
+   
+    // Getters/Setters
     
     public Date getDate() {
         return date;
@@ -88,18 +90,23 @@ public class Training {
      */
     public boolean isValid() {
         
+    	// location must not be blank
         if (StringUtils.isBlank(this.location)) {
             return false;
         }
         
+        // date must not be null
         if(this.date==null) {
             return false;
         }
         
+        // int value for shoe must be 0..n
+        // (0 meaning 'unknown')
         if(this.shoe==null || this.shoe.intValue()<=0) {
             return false;
         }
         
+        // no training without runs
         if(this.runs.isEmpty()) {
             return false;
         }
