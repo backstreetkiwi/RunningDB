@@ -7,11 +7,18 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>runningdb-model</artifactId>
+  <artifactId>runningdb-json</artifactId>
 
   <packaging>jar</packaging>
   
-  <name>RunningDB Model Classes</name>
-  <description>RunningDB Model Classes</description>
+  <name>RunningDB JSON Im- and Export Classes</name>
+  <description>RunningDB JSON Im- and Export Classes</description>
 
+  <dependencies>
+  	<dependency>
+  		<groupId>de.zaunkoenigweg</groupId>
+  		<artifactId>runningdb-model</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
