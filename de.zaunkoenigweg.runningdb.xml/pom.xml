@@ -1,17 +1,40 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>de.zaunkoenigweg</groupId>
-    <artifactId>runningdb</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
+	<parent>
+		<groupId>de.zaunkoenigweg</groupId>
+		<artifactId>runningdb</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
 
-  <artifactId>runningdb-xml</artifactId>
+	<artifactId>runningdb-xml</artifactId>
 
-  <packaging>jar</packaging>
-  
-  <name>RunningDB XML Im- and Export Classes</name>
-  <description>RunningDB XML Im- and Export Classes</description>
+	<packaging>jar</packaging>
+
+	<name>RunningDB XML Im- and Export Classes</name>
+	<description>RunningDB XML Im- and Export Classes</description>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<artifactId>maven-jaxb2-plugin</artifactId>
+				<configuration>
+					<schemaDirectory>src/main/schema</schemaDirectory>
+					<generatePackage>de.zaunkoenigweg.runningdb.xml.xjc</generatePackage>
+				</configuration>
+				<version>0.9.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+
+	</build>
 
 </project>
