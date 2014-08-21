@@ -33,6 +33,19 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>de.zaunkoenigweg</groupId>
+				<artifactId>sayhello-maven-plugin</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<phase>validate</phase>
+						<goals>
+							<goal>sayHello</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 
 	</build>
