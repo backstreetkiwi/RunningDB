@@ -12,6 +12,8 @@ import com.vaadin.ui.Label;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
+import de.zaunkoenigweg.runningdb.util.StatisticsUtil;
+
 @Theme("mytheme")
 @SuppressWarnings("serial")
 public class MyVaadinUI extends UI
@@ -28,10 +30,10 @@ public class MyVaadinUI extends UI
         layout.setMargin(true);
         setContent(layout);
         
-        Button button = new Button("Linnea");
+        Button button = new Button("Rekordschnitt 10km");
         button.addClickListener(new Button.ClickListener() {
             public void buttonClick(ClickEvent event) {
-                layout.addComponent(new Label("Hallo Linnea, morgen kommst Du in die Schule !!!"));
+                layout.addComponent(new Label(String.format("Schnitt bei 39:14 auf 10 km: %s", StatisticsUtil.getPace(10000, 2354))));
             }
         });
         layout.addComponent(button);
