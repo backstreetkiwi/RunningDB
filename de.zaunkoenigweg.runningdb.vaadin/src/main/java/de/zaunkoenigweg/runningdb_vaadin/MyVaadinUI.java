@@ -14,7 +14,7 @@ import com.vaadin.ui.VerticalLayout;
 
 import de.zaunkoenigweg.runningdb.util.StatisticsUtil;
 
-@Theme("mytheme")
+@Theme("runningdb")
 @SuppressWarnings("serial")
 public class MyVaadinUI extends UI
 {
