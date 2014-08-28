@@ -324,6 +324,14 @@
 	background: #f5f5f5;
 }
 
+body.v-generated-body {
+	background: none repeat scroll 0% 0% #E0E0E0;
+}
+
+div.runningdb.v-app {
+	background: none repeat scroll 0% 0% #E0E0E0;
+}
+
 .runningdb .v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -7006,4 +7014,1273 @@ body .runningdb.v-app .v-app-loading {
 	border: none;
 	background: transparent repeat-x;
 	background-image: url(../reindeer/window/img/black/content-bg.png);/** sprite-ref: black-verticals; sprite-alignment: repeat */
+}
+
+.runningdb .v-horizontallayout-mainLayout {
+	width: 100%;
+	height: 100%;
+	border-width: 0px;
+}
+
+.runningdb .v-panel-panelMainMenue {
+	padding: 0px;
+	width: 150px;
+	height: 100%;
+}
+
+.runningdb .v-panel-panelMainMenue .v-panel-content {
+	background: none;
+	padding: 50px 0 50px 0;
+	height: 100%;
+	border-width: 0px;
+}
+
+.runningdb .v-panel-panelMainMenue .v-panel-deco {
+	display: none;
+}
+
+.runningdb .v-panel-panelAppContent .v-panel-content-panelAppContent {
+	background: none;
+	padding: 50px 0px 0px 30px;
+	border-width: 0px;
+}
+
+.runningdb .v-panel-panelAppContent .v-panel-deco-panelAppContent {
+	display: none;
+}
+
+.runningdb .v-button-menueButtonHome:focus {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonHome:focus .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/home.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonHome:focus .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonHome:focus .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/home_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonHome:focus .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonHome {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonHome .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/home.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonHome .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonHome .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/home_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonHome .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonTagebuch:focus {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonTagebuch:focus .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/tagebuch.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonTagebuch:focus .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonTagebuch:focus .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/tagebuch_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonTagebuch:focus .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonTagebuch {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonTagebuch .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/tagebuch.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonTagebuch .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonTagebuch .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/tagebuch_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonTagebuch .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonBestzeiten:focus {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonBestzeiten:focus .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/stoppwatch.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonBestzeiten:focus .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonBestzeiten:focus .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/stoppwatch_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonBestzeiten:focus .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonBestzeiten {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonBestzeiten .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/stoppwatch.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonBestzeiten .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonBestzeiten .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/stoppwatch_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonBestzeiten .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonReports:focus {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonReports:focus .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/report.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonReports:focus .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonReports:focus .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/report_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonReports:focus .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonReports {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonReports .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/report.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonReports .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonReports .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/report_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonReports .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonSchuhe:focus {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonSchuhe:focus .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/shoe.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonSchuhe:focus .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonSchuhe:focus .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/shoe_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonSchuhe:focus .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonSchuhe {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonSchuhe .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/shoe.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonSchuhe .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonSchuhe .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/shoe_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonSchuhe .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonStatistik:focus {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonStatistik:focus .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/statistik.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonStatistik:focus .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonStatistik:focus .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/statistik_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonStatistik:focus .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonStatistik {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonStatistik .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/statistik.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonStatistik .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonStatistik .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/statistik_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonStatistik .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonData:focus {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonData:focus .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/data.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonData:focus .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonData:focus .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/data_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonData:focus .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-menueButtonData {
+	background: none;
+	padding: 10px;
+	height: 120px;
+	width: 145px;
+}
+
+.runningdb .v-button-menueButtonData .v-button-wrap {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/data.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonData .v-button-wrap .v-button-caption {
+	color: black;
+	text-shadow: none;
+	position: relative;
+	top: 73px;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
+.runningdb .v-button-menueButtonData .v-button-wrap:hover {
+	height: 100px;
+	padding: 0px;
+	background-image: url("../runningdb/icons/data_hover.png");
+	background-position: 32px 5px;
+	background-repeat: no-repeat;
+}
+
+.runningdb .v-button-menueButtonData .v-button-wrap:hover .v-button-caption {
+	color: #F0F0F0;
+}
+
+.runningdb .v-button-defaultButton:focus {
+	background: none repeat scroll 0 0 #712a24;
+	height: 30px;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px solid white;
+	padding: 1px 0 0 0;
+	box-shadow: 2px 2px 5px black;
+	margin: 5px;
+}
+
+.runningdb .v-button-defaultButton:focus .v-button-wrap {
+	background: none repeat scroll 0 0;
+}
+
+.runningdb .v-button-defaultButton:focus .v-button-wrap .v-button-caption {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+.runningdb .v-button-defaultButton {
+	background: none repeat scroll 0 0 #712a24;
+	height: 30px;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px solid white;
+	padding: 1px 0 0 0;
+	box-shadow: 2px 2px 5px black;
+	margin: 5px;
+}
+
+.runningdb .v-button-defaultButton .v-button-wrap {
+	background: none repeat scroll 0 0;
+}
+
+.runningdb .v-button-defaultButton .v-button-wrap .v-button-caption {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+.runningdb .v-button-defaultButton.v-disabled {
+	background: none repeat scroll 0 0 #712a24;
+	height: 30px;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px solid white;
+	padding: 1px 0 0 0;
+	box-shadow: 2px 2px 5px black;
+	margin: 5px;
+}
+
+.runningdb .v-button-defaultButton.v-disabled .v-button-wrap {
+	background: none repeat scroll 0 0;
+}
+
+.runningdb .v-button-defaultButton.v-disabled .v-button-wrap .v-button-caption {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+.runningdb .v-button-downloadTrainingLogButton:focus {
+	background: none repeat scroll 0 0 #712a24;
+	width: 600px;
+	height: 190px;
+	margin: 75px 10px 10px 90px;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 5px black;
+}
+
+.runningdb .v-button-downloadTrainingLogButton:focus .v-button-wrap {
+	background: none repeat scroll 0 0;
+}
+
+.runningdb .v-button-downloadTrainingLogButton:focus .v-button-wrap img.v-icon {
+	margin-right: 50px;
+}
+
+.runningdb .v-button-downloadTrainingLogButton:focus .v-button-wrap .v-button-caption {
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 36px;
+	line-height: 128px;
+}
+
+.runningdb .v-button-downloadTrainingLogButton {
+	background: none repeat scroll 0 0 #712a24;
+	width: 600px;
+	height: 190px;
+	margin: 75px 10px 10px 90px;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 5px black;
+}
+
+.runningdb .v-button-downloadTrainingLogButton .v-button-wrap {
+	background: none repeat scroll 0 0;
+}
+
+.runningdb .v-button-downloadTrainingLogButton .v-button-wrap img.v-icon {
+	margin-right: 50px;
+}
+
+.runningdb .v-button-downloadTrainingLogButton .v-button-wrap .v-button-caption {
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 36px;
+	line-height: 128px;
+}
+
+.runningdb .v-upload .v-button:focus {
+	background: #712a24;
+	background-image: url(icons/upload.png);
+	background-position: 60px 27px;
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 190px;
+	margin: 75px 10px 10px 90px;
+	padding: 14px 0px 0px 125px;
+	border-radius: 5px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 5px black;
+}
+
+.runningdb .v-upload .v-button:focus .v-button-wrap {
+	background: none repeat scroll 0 0;
+}
+
+.runningdb .v-upload .v-button:focus .v-button-wrap .v-button-caption {
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 36px;
+	line-height: 128px;
+}
+
+.runningdb .v-upload .v-button {
+	background: #712a24;
+	background-image: url(icons/upload.png);
+	background-position: 60px 27px;
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 190px;
+	margin: 75px 10px 10px 90px;
+	padding: 14px 0px 0px 125px;
+	border-radius: 5px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 5px black;
+}
+
+.runningdb .v-upload .v-button .v-button-wrap {
+	background: none repeat scroll 0 0;
+}
+
+.runningdb .v-upload .v-button .v-button-wrap .v-button-caption {
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 36px;
+	line-height: 128px;
+}
+
+.runningdb div.v-filterselect {
+	width: 300px;
+	background: none repeat scroll 0 0 white;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid white;
+	padding-left: 0px;
+	box-shadow: 2px 2px 5px black;
+	margin: 5px 20px 5px 5px;
+}
+
+.runningdb div.v-filterselect input.v-filterselect-input:focus {
+	background: none repeat scroll 0 0 #712a24;
+	width: 270px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid white;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.runningdb div.v-filterselect input.v-filterselect-input:hover {
+	background: none repeat scroll 0 0 #712a24;
+	width: 270px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid white;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.runningdb div.v-filterselect input.v-filterselect-input {
+	background: none repeat scroll 0 0 #712a24;
+	width: 270px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid white;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.runningdb div.v-filterselect div.v-filterselect-button:hover {
+	background: none;
+	background-image: url("../runningdb/icons/dropdown-icon-large.png");
+	background-position: 4px 5px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-filterselect div.v-filterselect-button:focus {
+	background: none;
+	background-image: url("../runningdb/icons/dropdown-icon-large.png");
+	background-position: 4px 5px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-filterselect div.v-filterselect-button {
+	background: none;
+	background-image: url("../runningdb/icons/dropdown-icon-large.png");
+	background-position: 4px 5px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-filterselect-suggestpopup {
+	background: none repeat scroll 0 0 #712a24;
+	border: 1px solid white;
+	border-radius: 5px;
+	overflow: hidden;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.runningdb div.v-filterselect-suggestpopup .gwt-MenuItem-selected {
+	color: #712a24;
+	background: none repeat scroll 0 0 white;
+	text-shadow: none;
+}
+
+.runningdb div.v-filterselect-inPopupWindow {
+	width: 300px;
+	background: none repeat scroll 0 0 #606060;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #606060;
+	padding-left: 0px;
+	box-shadow: none;
+	margin: 0;
+}
+
+.runningdb div.v-filterselect-inPopupWindow input.v-filterselect-input:focus {
+	background: none repeat scroll 0 0 white;
+	width: 270px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-filterselect-inPopupWindow input.v-filterselect-input:hover {
+	background: none repeat scroll 0 0 white;
+	width: 270px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-filterselect-inPopupWindow input.v-filterselect-input {
+	background: none repeat scroll 0 0 white;
+	width: 270px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-filterselect-inPopupWindow div.v-filterselect-button:hover {
+	background: none;
+	background-image: url("../runningdb/icons/dropdown-icon-large.png");
+	background-position: 4px 5px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-filterselect-inPopupWindow div.v-filterselect-button:focus {
+	background: none;
+	background-image: url("../runningdb/icons/dropdown-icon-large.png");
+	background-position: 4px 5px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-filterselect-inPopupWindow div.v-filterselect-button {
+	background: none;
+	background-image: url("../runningdb/icons/dropdown-icon-large.png");
+	background-position: 4px 5px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-filterselect-suggestpopup-inPopupWindow {
+	background: none repeat scroll 0 0 white;
+	border: 1px solid #606060;
+	border-radius: 5px;
+	overflow: hidden;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-filterselect-suggestpopup-inPopupWindow .gwt-MenuItem-selected {
+	color: white;
+	background: none repeat scroll 0 0 #c89591;
+	text-shadow: none;
+}
+
+.runningdb .v-panel-defaultPanel .v-panel-content-defaultPanel {
+	background: none;
+	padding: 0px 0px 0px 0px;
+	border-width: 0px;
+}
+
+.runningdb .v-panel-defaultPanel .v-panel-deco-defaultPanel {
+	display: none;
+}
+
+.runningdb .v-panel-panelTitle {
+	background: none repeat scroll 0% 0% #712a24;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px black;
+	padding: 20px !important;
+	margin: 100px 10px 10px 10px;
+}
+
+.runningdb .v-panel-panelTitle .v-panel-captionwrap {
+	display: none;
+}
+
+.runningdb .v-panel-panelTitle .v-panel-content {
+	background: none;
+	padding: 0;
+	border-width: 0;
+}
+
+.runningdb .v-panel-panelTitle .v-panel-deco {
+	display: none;
+}
+
+.runningdb div.v-table {
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.runningdb div.v-table-lightTable {
+	font-weight: bold;
+	font-size: 12px;
+	color: purple;
+	text-shadow: none;
+	text-transform: none;
+	border-radius: 5px;
+	border-collapse: collapse;
+	margin: 20px 0 20px 0;
+}
+
+.runningdb div.v-table-lightTable div.v-table-header-wrap {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: purple;
+	text-shadow: none;
+	text-transform: none;
+	padding: 10px 0px;
+}
+
+.runningdb div.v-table-lightTable div.v-table-header-wrap div.v-table-resizer {
+	display: none;
+}
+
+.runningdb div.v-table-lightTable div.v-table-body {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: none;
+}
+
+.runningdb div.v-table-lightTable div.v-table-body .v-table-cell-wrapper {
+	margin: 5px 0px;
+}
+
+.runningdb div.v-table-lightTable div.v-table-body .v-table-row {
+	background: none;
+}
+
+.runningdb div.v-table-lightTable div.v-table-body .v-table-row-odd {
+	background: none;
+}
+
+.runningdb div.v-window-popupWindow div.v-window-wrap {
+	border-radius: 5px;
+}
+
+.runningdb div.v-window-popupWindow div.v-window-wrap div.v-window-outerheader {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background: none repeat scroll 0% 0% #712a24;
+}
+
+.runningdb div.v-window-popupWindow div.v-window-wrap div.v-window-contents {
+	background: none repeat scroll 0% 0% #F0F0F0;
+	border-radius: 5px;
+}
+
+.runningdb div.v-window-popupWindow div.v-window-wrap div.v-window-footer {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.runningdb div.v-window-popupWindow div.v-window-wrap div.v-window-footer div.v-window-resizebox {
+	border-bottom-right-radius: 5px;
+}
+
+.runningdb div.v-Notification-splash {
+	opacity: 1 !important;
+	padding: 0;
+	background: none;
+}
+
+.runningdb div.v-Notification-splash img {
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px black;
+}
+
+.runningdb div.v-datefield-popupcalendar {
+	width: 200px;
+	background: none repeat scroll 0 0 #606060;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #606060;
+}
+
+.runningdb div.v-datefield-popupcalendar input.v-datefield-textfield-focus {
+	background: none repeat scroll 0 0 white;
+	width: 170px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-datefield-popupcalendar input.v-datefield-textfield:focus {
+	background: none repeat scroll 0 0 white;
+	width: 170px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-datefield-popupcalendar input.v-datefield-textfield {
+	background: none repeat scroll 0 0 white;
+	width: 170px;
+	height: 30px;
+	margin: -1px;
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-datefield-popupcalendar button.v-datefield-button:focus {
+	background: none;
+	background-image: url(../runningdb/icons/calendar-icon.png);
+	background-position: 4px 3px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-datefield-popupcalendar button.v-datefield-button {
+	background: none;
+	background-image: url(../runningdb/icons/calendar-icon.png);
+	background-position: 4px 3px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.runningdb div.v-inline-datefield {
+	width: 366px;
+	background: none repeat scroll 0 0 white;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	padding: 1px;
+	box-shadow: 2px 2px 5px $shadowColor;
+	margin: 5px;
+}
+
+.runningdb div.v-inline-datefield button.v-button-prevyear {
+	height: 28px;
+	width: 40px;
+	border: none;
+	padding: 0;
+	background: no-repeat scroll 12px 6px #712a24;
+	border-radius: 5px 0px 0px 5px;
+	margin: 0 1px 0 0;
+	background-image: url(../runningdb/icons/inlinedate-prev-year.png);
+}
+
+.runningdb div.v-inline-datefield button.v-button-prevmonth {
+	height: 28px;
+	width: 40px;
+	border: none;
+	padding: 0;
+	background: no-repeat scroll 12px 6px #712a24;
+	border-radius: 0;
+	margin: 0 1px 0 0;
+	background-image: url(../runningdb/icons/inlinedate-prev-month.png);
+}
+
+.runningdb div.v-inline-datefield span.v-inline-datefield-calendarpanel-month {
+	height: 28px;
+	width: 200px;
+	background: none repeat scroll 0 0 #712a24;
+	border-radius: 0;
+	border: none;
+	margin: 0 1px 0 0;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	font-size: 12px;
+	padding: 0px;
+	line-height: 28px;
+}
+
+.runningdb div.v-inline-datefield button.v-button-nextmonth {
+	height: 28px;
+	width: 40px;
+	border: none;
+	padding: 0;
+	background: no-repeat scroll 12px 6px #712a24;
+	background-image: url(../runningdb/icons/inlinedate-next-month.png);
+	border-radius: 0;
+	margin: 0 1px 0 0;
+}
+
+.runningdb div.v-inline-datefield button.v-button-nextyear {
+	height: 28px;
+	width: 40px;
+	border: none;
+	padding: 0;
+	background: no-repeat scroll 12px 6px #712a24;
+	background-image: url(../runningdb/icons/inlinedate-next-year.png);
+	border-radius: 0px 5px 5px 0px;
+	margin: 0;
+}
+
+.runningdb input.v-textfield-focus {
+	background: none repeat scroll 0 0 white;
+	border-radius: 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+	width: 200px;
+	height: 300px;
+}
+
+.runningdb input.v-textfield:focus {
+	background: none repeat scroll 0 0 white;
+	border-radius: 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+	width: 200px;
+	height: 300px;
+}
+
+.runningdb input.v-textfield {
+	background: none repeat scroll 0 0 white;
+	border-radius: 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+	width: 200px;
+	height: 300px;
+}
+
+.runningdb textarea.v-textarea-focus {
+	background: none repeat scroll 0 0 white;
+	border-radius: 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb textarea.v-textarea:focus {
+	background: none repeat scroll 0 0 white;
+	border-radius: 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb textarea.v-textarea {
+	background: none repeat scroll 0 0 white;
+	border-radius: 5px;
+	border: 1px solid #606060;
+	letter-spacing: 1px;
+	color: #606060;
+}
+
+.runningdb div.v-ui {
+	margin: 30px auto;
+	background-image: url("../runningdb/images/background.png");
+	width: 1050px;
+	height: 825px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px black;
+}
+
+.runningdb div.v-window-popupWindow div.v-caption {
+	color: black;
+}
+
+.runningdb .v-inline-datefield {
+	margin: 0 0 20px 0;
 }

@@ -5,7 +5,5 @@
 /* The actual styles should be defined in runningdb.scss */
 .runningdb {
   @include addons;
-
-  // Include runningdb theme styles in your theme
   @include runningdb;
 }
