@@ -94,6 +94,16 @@
 			<artifactId>runningdb-util</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>de.zaunkoenigweg</groupId>
+			<artifactId>runningdb-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>de.zaunkoenigweg</groupId>
+			<artifactId>runningdb-json</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
