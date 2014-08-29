@@ -62,7 +62,7 @@ public class RecordsUi extends AbstractUi {
         this.selectRecordDistance.setWidth("350px");
         this.selectRecordDistance.setItemCaptionMode(ItemCaptionMode.PROPERTY);
         this.selectRecordDistance.setItemCaptionPropertyId("teaser");
-        this.selectRecordDistance.setInputPrompt("Bitte ausw�hlen...");
+        this.selectRecordDistance.setInputPrompt("Bitte auswählen...");
         this.selectRecordDistance.setNullSelectionAllowed(false);
         this.selectRecordDistance.setTextInputAllowed(false);
         this.selectRecordDistance.setImmediate(true);
@@ -85,7 +85,7 @@ public class RecordsUi extends AbstractUi {
         layout.addComponent(this.panelRecordInfo);
 
         // button "add new record distance"
-        buttonAddRecordDistance = ComponentFactory.createButton("Strecke hinzuf�gen");
+        buttonAddRecordDistance = ComponentFactory.createButton("Strecke hinzufügen");
         layout.addComponent(buttonAddRecordDistance);
 
         buttonAddRecordDistance.addClickListener(new Button.ClickListener() {
@@ -266,7 +266,7 @@ public class RecordsUi extends AbstractUi {
      */
     private Button createButtonRemoveRecordDistance() {
 
-        Button button = ComponentFactory.createButton("L�schen");
+        Button button = ComponentFactory.createButton("Löschen");
         button.addClickListener(new Button.ClickListener() {
             
             private static final long serialVersionUID = 7956107661600031856L;
@@ -274,7 +274,7 @@ public class RecordsUi extends AbstractUi {
             @Override
             public void buttonClick(ClickEvent event) {
 
-                ConfirmationDialog.show("Soll die angegebene Bestzeit wirklich gel�scht werden?", new ConfirmationDialog.ConfimationDialogListener() {
+                ConfirmationDialog.show("Soll die angegebene Bestzeit wirklich gelöscht werden?", new ConfirmationDialog.ConfimationDialogListener() {
                     
                     @Override
                     public void yes() {

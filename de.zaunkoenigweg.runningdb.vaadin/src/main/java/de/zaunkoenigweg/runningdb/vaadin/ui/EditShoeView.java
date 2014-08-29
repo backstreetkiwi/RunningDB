@@ -28,7 +28,7 @@ public class EditShoeView extends CustomComponent implements View {
 
     private static final long serialVersionUID = 3021578951350704103L;
 
-    // Navigator f�r Seitennavigation
+    // Navigator für Seitennavigation
     Navigator navigator;
     
     // UI-Felder
@@ -55,7 +55,7 @@ public class EditShoeView extends CustomComponent implements View {
         // Formular-Layout
         Layout layout = new FormLayout();
         
-        // Label '�berschrift'
+        // Label 'Überschrift'
         this.ueberschrift = new Label();
         layout.addComponent(this.ueberschrift);
 
@@ -94,7 +94,7 @@ public class EditShoeView extends CustomComponent implements View {
         this.checkBoxAktiv.setImmediate(true);
         layout.addComponent(this.checkBoxAktiv);
         
-        // �nderung eines der Felder =>
+        // Änderung eines der Felder =>
         // Button Speichern muss en/disabled werden.
         Property.ValueChangeListener valueChangeListener = new Property.ValueChangeListener() {
             
@@ -127,14 +127,14 @@ public class EditShoeView extends CustomComponent implements View {
         });
         
         
-        // Formular(layout) zur Komponente hinzuf�gen
+        // Formular(layout) zur Komponente hinzufügen
         setCompositionRoot(layout);
     }
     
     @Override
     public void enter(ViewChangeEvent event) {
         
-        // Navigator holen f�r weitere Schritte
+        // Navigator holen für weitere Schritte
         this.navigator = event.getNavigator();
         
         // Trainingstagebuch aus der Session holen
@@ -143,7 +143,7 @@ public class EditShoeView extends CustomComponent implements View {
         // neuen Schuh erzeugen und anzeigen
         this.schuh = new BeanItem<Shoe>(new Shoe());
 
-        // Verkn�pfung des UIs mit dem BeanItem(Schuh)
+        // Verknüpfung des UIs mit dem BeanItem(Schuh)
         this.textFieldHersteller.setPropertyDataSource(this.schuh.getItemProperty("brand"));
         this.textFieldModell.setPropertyDataSource(this.schuh.getItemProperty("model"));
         this.textFieldKaufdatum.setPropertyDataSource(this.schuh.getItemProperty("dateOfPurchase"));

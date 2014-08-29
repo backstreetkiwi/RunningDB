@@ -40,7 +40,7 @@ public class RecordDistanceInputWindow extends Window {
         
         this.recordDistance = new BeanItem<RecordDistance>(new RecordDistance());
         
-        setCaption("Eingabe einer Strecke f�r die Bestzeiten");
+        setCaption("Eingabe einer Strecke für die Bestzeiten");
         setClosable(false);
         setHeight("400px");
         setWidth("600px");

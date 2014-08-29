@@ -82,7 +82,7 @@ public class EditRunWindow extends Window {
         this.textFieldTime.setPropertyDataSource(this.run.getItemProperty("time"));
         this.textFieldTime.setImmediate(true);
         this.textFieldTime.setConverter(this.timeConverter);
-        this.textFieldTime.setConversionError("Bitte geben Sie einen g�ltigen Zeitwert ein.");
+        this.textFieldTime.setConversionError("Bitte geben Sie einen gültigen Zeitwert ein.");
         this.textFieldTime.addValidator(new IntegerRangeValidator("Die Zeit muss zwischen 1:00 Minute und 9:59:59 Stunden liegen.", 60, 35999));
         this.textFieldTime.setValidationVisible(true);
 

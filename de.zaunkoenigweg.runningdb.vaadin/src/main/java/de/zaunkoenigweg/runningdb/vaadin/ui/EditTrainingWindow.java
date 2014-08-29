@@ -95,7 +95,7 @@ public class EditTrainingWindow extends Window {
         this.selectShoes.setWidth("300px");
         this.selectShoes.setItemCaptionMode(ItemCaptionMode.PROPERTY);
         this.selectShoes.setItemCaptionPropertyId("shortname");
-        this.selectShoes.setInputPrompt("Bitte Schuh ausw�hlen...");
+        this.selectShoes.setInputPrompt("Bitte Schuh auswählen...");
         this.selectShoes.setImmediate(true);
 
         this.selectShoes.addValueChangeListener(new Property.ValueChangeListener() {
@@ -137,7 +137,7 @@ public class EditTrainingWindow extends Window {
         this.textAreaComments.addValueChangeListener(valueChangeListener);        
 
         // table containing runs of currently edited training session
-        tableRuns = new Table("L�ufe");
+        tableRuns = new Table("Läufe");
         layout.addComponent(tableRuns);
         tableRuns.addContainerProperty("distance", String.class, "");
         tableRuns.addContainerProperty("time", String.class, "");
@@ -151,7 +151,7 @@ public class EditTrainingWindow extends Window {
         tableRuns.setFooterVisible(true);
 
         // button "add run"
-        buttonAddRun = ComponentFactory.createButton("Lauf hinzuf�gen");
+        buttonAddRun = ComponentFactory.createButton("Lauf hinzufügen");
         layout.addComponent(buttonAddRun);
         
         buttonAddRun.addClickListener(new Button.ClickListener() {
