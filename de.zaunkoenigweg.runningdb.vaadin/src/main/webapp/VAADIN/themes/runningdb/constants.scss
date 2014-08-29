@@ -1,0 +1,58 @@
+@mixin runningdb-constants {
+
+  /* color value constants */
+  $lightestGray: #F0F0F0;
+  $darkGray: #606060;
+  $track: #712a24;
+  $lightTrack: #c89591;
+
+  /* components/window */
+  $popupBackgroundColor: $lightestGray;
+  $popupHeaderBackgroundColor: $track;
+  $popupTextColor: black;
+  
+  /* views/mainmenue */
+  $mainMenueBackgroundColor: black;
+  $mainMenueTextColor: $lightestGray;
+
+  /* components/button */
+  $buttonBackgroundColor: $track;
+  $buttonBorderColor: white;
+  $buttonTextColor: white;
+  $buttonShadowColor: black;
+
+  /* components/select */
+  $selectBackgroundColor: $track;
+  $selectBorderColor: white;
+  $selectTextColor: white;
+  $selectPopupTextColor: $track;
+  $selectPopupBackgroundColor: white;
+  $selectShadowColor: black;
+
+  $popupWindowSelectBackgroundColor: white;
+  $popupWindowSelectBorderColor: $darkGray;
+  $popupWindowSelectTextColor: $darkGray;
+  $popupWindowSelectPopupTextColor: white;
+  $popupWindowSelectPopupBackgroundColor: $lightTrack;
+
+  /* components/textfield */
+  $textFieldBackgroundColor: white;
+  $textFieldBorderColor: $darkGray;
+  $textFieldTextColor: $darkGray;
+
+  /* components/datefield */
+  $dateFieldBackgroundColor: white;
+  $dateFieldBorderColor: $darkGray; 
+  $dateFieldTextColor: $darkGray;
+  
+  /* components/datefield */
+  $inlineDateFieldBackgroundColor: $track;
+  $inlineDateFieldBorderColor: white;
+  $inlineDateFieldTextColor: white;
+
+  /* oldstuff, deprecated */
+  $lightTableTextColor: purple;
+  
+  $splashScreenBackgroundColor: $track;
+  
+}

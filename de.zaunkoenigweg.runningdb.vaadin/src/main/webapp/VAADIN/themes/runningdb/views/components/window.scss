@@ -1,0 +1,40 @@
+@mixin runningdb-window {
+
+  div.v-window-popupWindow div.v-window-wrap {
+
+    border-radius: 5px;
+    
+    div.v-window-outerheader {
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      background: none repeat scroll 0% 0% $popupHeaderBackgroundColor;
+    }
+
+    div.v-window-contents {
+      background: none repeat scroll 0% 0% $popupBackgroundColor;
+      border-radius: 5px;
+    } 
+   
+    div.v-window-footer {
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+
+      div.v-window-resizebox {
+        border-bottom-right-radius: 5px;
+      }
+
+    }
+
+  }
+
+  div.v-Notification-splash {
+    opacity: 1 !important;
+    padding: 0;
+    background: none;
+    img {
+      border-radius: 15px;
+      box-shadow: 0px 0px 20px black;
+    }
+  }
+
+}

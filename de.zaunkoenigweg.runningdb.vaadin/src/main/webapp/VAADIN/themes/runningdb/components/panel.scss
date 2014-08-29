@@ -1,0 +1,40 @@
+@mixin runningdb-panel {
+
+  .v-panel-defaultPanel {
+    .v-panel-content-defaultPanel {
+      background: none;
+      padding: 0px 0px 0px 0px;
+      border-width: 0px;
+    }
+
+    .v-panel-deco-defaultPanel {
+      display: none;
+    }
+  }
+
+  .v-panel-panelTitle {
+
+      background: none repeat scroll 0% 0% $popupHeaderBackgroundColor;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px black;
+      padding: 20px !important;
+      margin: 100px 10px 10px 10px;
+
+    .v-panel-captionwrap {
+      display: none;
+    }
+
+    .v-panel-content {
+      background: none;
+      padding: 0;
+      border-width: 0;
+    }
+
+    .v-panel-deco {
+      display: none;
+    }
+  }
+
+
+}
+
