@@ -10,7 +10,7 @@ import com.vaadin.ui.Window;
 /**
  * Splash Screen.
  * 
- * The dialog is shown by calling the static method {@link #show(String)}.
+ * The dialog is shown by calling the static method {@link #show()}
  * 
  * @author Nikolaus Winter
  */
