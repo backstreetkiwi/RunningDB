@@ -30,6 +30,7 @@ public class StatisticsUtilTest {
 	@Test
 	public void testGetPace() {
 		assertEquals(Integer.valueOf(0), StatisticsUtil.getPace(null, null));
+		assertEquals(Integer.valueOf(0), StatisticsUtil.getPace(null, -12));
 		assertEquals(Integer.valueOf(300), StatisticsUtil.getPace(10000, 3000));
 		assertEquals(Integer.valueOf(235), StatisticsUtil.getPace(10000, 2354));
 	}
