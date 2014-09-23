@@ -46,6 +46,28 @@
 					</execution>
 				</executions>
 			</plugin>
+			<!-- http://www.eclemma.org/jacoco/trunk/doc/index.html -->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.7.2.201409121644</version>
+				<executions>
+					<execution>
+						<id>jacoco-prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+						<!-- default phase: initialize -->
+					</execution>
+					<execution>
+						<id>jacoco-report</id>
+						<goals>
+							<goal>report</goal>
+						</goals>
+						<!-- default phase: verify -->
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -62,7 +84,7 @@
 			<version>3.3.2</version>
 		</dependency>
 	</dependencies>
-	
+
 	<reporting>
 		<plugins>
 			<plugin>
@@ -83,7 +105,7 @@
 	</reporting>
 
 	<distributionManagement>
-	
+
 		<!-- Fake :( -->
 		<site>
 			<id>runningdb.website</id>

@@ -1,4 +1,4 @@
-Dieses Projekt enthält das Model der [RunningDB][index].
+Dieses Projekt enthält die Vaadin-UI der [RunningDB][index].
 
 [Code Coverage][coverage]
 
