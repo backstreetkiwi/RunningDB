@@ -62,4 +62,15 @@
 			<version>3.3.2</version>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+	
+		<!-- Fake :( -->
+		<site>
+			<id>runningdb.website</id>
+			<name>RunningDB Website</name>
+			<url>scp://zaunkoenigweg.de/projects/runningdb/public_html</url>
+		</site>
+	</distributionManagement>
+
 </project>
