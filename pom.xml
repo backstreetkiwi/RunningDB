@@ -62,9 +62,16 @@
 			<version>3.3.2</version>
 		</dependency>
 	</dependencies>
-
+	
 	<reporting>
 		<plugins>
+			<plugin>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<configuration>
+					<aggregate>true</aggregate>
+					<linkXRef>true</linkXRef>
+				</configuration>
+			</plugin>
 			<plugin>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>2.10</version>
