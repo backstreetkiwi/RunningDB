@@ -139,6 +139,7 @@ public class EditRunWindow extends Window {
         
         /**
          * Action to be executed after a run is created using this dialog.
+         * @param run single run as part of a training
          */
         public void runCreated(Run run);
         

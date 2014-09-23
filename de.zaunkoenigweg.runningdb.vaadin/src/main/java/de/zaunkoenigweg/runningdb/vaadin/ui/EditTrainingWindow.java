@@ -284,6 +284,7 @@ public class EditTrainingWindow extends Window {
         
         /**
          * Action to be executed after a training is created using this dialog.
+         * @param training Training session
          */
         public void trainingCreated(Training training);
         

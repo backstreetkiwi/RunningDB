@@ -260,6 +260,7 @@ public class TrainingLog {
     
     /**
      * Generates report containing all training sessions, grouped and sorted by year.
+     * @return Training Report for this Training Log
      */
     public TrainingReport generateTraininigReport() {
         

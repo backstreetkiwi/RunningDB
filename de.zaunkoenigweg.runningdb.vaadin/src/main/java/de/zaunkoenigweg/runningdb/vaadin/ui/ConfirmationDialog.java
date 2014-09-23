@@ -11,7 +11,7 @@ import com.vaadin.ui.Window;
 /**
  * Dialog to confirm an action.
  * 
- * The dialog is shown by calling the static method {@link #show(String)}. This method is provided
+ * The dialog is shown by calling the static method {@link #show(String, ConfimationDialogListener)}. This method is provided
  * with the question and a {@link ConfimationDialogListener} to specify the actions to be executed
  * after a choice was made. 
  * 

@@ -125,6 +125,7 @@ public class RecordDistanceInputWindow extends Window {
         
         /**
          * Action to be executed after a record distance is created using this dialog.
+         * @param recordDistance Running Distance to be shown in record list
          */
         public void recordDistanceCreated(RecordDistance recordDistance);
         
