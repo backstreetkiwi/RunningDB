@@ -86,6 +86,7 @@
 	</dependencies>
 
 	<reporting>
+	    <excludeDefaults>true</excludeDefaults>
 		<plugins>
 			<plugin>
 				<artifactId>maven-surefire-report-plugin</artifactId>
