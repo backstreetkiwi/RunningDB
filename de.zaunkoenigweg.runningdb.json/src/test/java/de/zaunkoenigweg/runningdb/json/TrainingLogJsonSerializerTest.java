@@ -57,7 +57,6 @@ public class TrainingLogJsonSerializerTest {
         trainingLog.addShoe(schuh);
         
         String json = TrainingLogJsonSerializer.writeToJson(trainingLog);
-        System.out.println(json);
         assertNotNull(json);
         
         // from JSON
