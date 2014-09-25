@@ -1,6 +1,2 @@
-Dieses Projekt enthält JSON-(De)serializer der [RunningDB][index].
+Dieses Projekt enthält JSON-(De)serializer der RunningDB.
 
-[Code Coverage][coverage]
-
-[index]: ../index.html
-[coverage]: ./jacoco/index.html

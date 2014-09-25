@@ -1,0 +1,7 @@
+<project>
+    <body>
+        <menu name="Reports">
+            <item name="Coverage" href="jacoco/index.html" />
+        </menu>
+    </body>
+</project>
